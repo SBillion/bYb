@@ -17,11 +17,11 @@ SITE_ROOT = os.path.dirname(__file__)
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': os.path.join('db.sqlite3'),                      # Or path to database file if using sqlite3.
-        'USER': '',                      # Not used with sqlite3.
-        'PASSWORD': '',                  # Not used with sqlite3.
-        'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
+        'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+        'NAME':'43844_byb',                      # Or path to database file if using sqlite3.
+        'USER': '43844',                      # Not used with sqlite3.
+        'PASSWORD': 'hztijo38',                  # Not used with sqlite3.
+        'HOST': 'mysql1.alwaysdata.com',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
 }
@@ -62,19 +62,19 @@ DEFAULT_LANGUAGE = 1
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
-MEDIA_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), 'media', '')).replace('\\','/')
+MEDIA_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), 'public/media', '')).replace('\\','/')
 
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
-MEDIA_URL = '/site-media/'
+MEDIA_URL = '/media/'
 
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
-STATIC_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), 'static', '')).replace('\\','/')
+STATIC_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), 'public/static', '')).replace('\\','/')
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
@@ -90,7 +90,11 @@ STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-	MEDIA_ROOT,
+ MEDIA_ROOT, 
+   '/home/backup-your-brain/modules/django_blog_zinnia-0.10-py2.6.egg/zinnia/static',
+'/usr/local/alwaysdata/python/django/1.3.1/django/contrib/admin/media',    
+
+
 )
 
 # List of finder classes that know how to find static files in
@@ -123,7 +127,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'bYb.urls'
 
 TEMPLATE_DIRS = (
-    os.path.join(SITE_ROOT, 'Templates'),
+    os.path.join(SITE_ROOT, 'templates'),
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -131,7 +135,7 @@ TEMPLATE_DIRS = (
 
 
 TEMPLATE_CONTEXT_PROCESSORS = (
-	'django.core.context_processors.auth',
+	'django.contrib.auth.context_processors.auth',	
 	'django.core.context_processors.i18n',
 	'django.core.context_processors.request',
 	'django.core.context_processors.media',
@@ -154,8 +158,10 @@ INSTALLED_APPS = (
     'localeurl',
     'tagging',
     'mptt',
-    'zinnia',
-    # Uncomment the next line to enable the admin:
+	'django_bitly',
+    'zinnia',	
+    'django.contrib.sitemaps',
+# Uncomment the next line to enable the admin:
      'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
@@ -185,3 +191,15 @@ LOGGING = {
 }
 
 MODELTRANSLATION_TRANSLATION_REGISTRY = "bYb.translation"
+
+BITLY_LOGIN = 'backupyourbrain'
+BITLY_API_KEY = 'R_6b6edd7cb41d694785abe4ab0e9cbaee'
+ZINNIA_URL_SHORTENER_BACKEND = 'zinnia.url_shortener.backends.bitly'
+
+
+TWITTER_CONSUMER_KEY = '2TOne1cCdnG59QiZy6Qtbw'
+TWITTER_CONSUMER_SECRET = '2AiXO7n1c7eZrvWvyov3eIvGvWO2xLE8o6Bwzy9URA'
+TWITTER_ACCESS_KEY = '538235480-JyznbkMUFqVaxzaeBXTV7gOAEP2R1BTNcjVeZNKL'
+TWITTER_ACCESS_SECRET = 'KLrFElBkM5yDiKH2mSFYokvvcf6oZLL3vIQoC89Nh9c'
+
+ZINNIA_USE_TWITTER=True

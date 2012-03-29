@@ -1,0 +1,1601 @@
+Exception:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 274, in main
+    self.run(options, args)
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 431, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle)
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 1784, in install_files
+    if req_to_install.check_if_exists():
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 1641, in check_if_exists
+    dist = pkg_resources.get_distribution(self.req)
+  File "/usr/local/lib/python2.6/site-packages/setuptools-0.6c11-py2.6.egg/pkg_resources.py", line 311, in get_distribution
+    if isinstance(dist,Requirement): dist = get_provider(dist)
+  File "/usr/local/lib/python2.6/site-packages/setuptools-0.6c11-py2.6.egg/pkg_resources.py", line 197, in get_provider
+    return working_set.find(moduleOrReq) or require(str(moduleOrReq))[0]
+  File "/usr/local/lib/python2.6/site-packages/setuptools-0.6c11-py2.6.egg/pkg_resources.py", line 464, in find
+    raise VersionConflict(dist,req)     # XXX add more info
+VersionConflict: (PIL 1.1.5 (/usr/local/lib/python2.6/site-packages/PIL), Requirement.parse('PIL==1.1.7'))
+------------------------------------------------------------
+/usr/local/bin/pip run on Tue Mar 27 11:31:27 2012
+Exception:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 274, in main
+    self.run(options, args)
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 431, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle)
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 1784, in install_files
+    if req_to_install.check_if_exists():
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 1641, in check_if_exists
+    dist = pkg_resources.get_distribution(self.req)
+  File "/usr/local/lib/python2.6/site-packages/setuptools-0.6c11-py2.6.egg/pkg_resources.py", line 311, in get_distribution
+    if isinstance(dist,Requirement): dist = get_provider(dist)
+  File "/usr/local/lib/python2.6/site-packages/setuptools-0.6c11-py2.6.egg/pkg_resources.py", line 197, in get_provider
+    return working_set.find(moduleOrReq) or require(str(moduleOrReq))[0]
+  File "/usr/local/lib/python2.6/site-packages/setuptools-0.6c11-py2.6.egg/pkg_resources.py", line 464, in find
+    raise VersionConflict(dist,req)     # XXX add more info
+VersionConflict: (PIL 1.1.5 (/usr/local/lib/python2.6/site-packages/PIL), Requirement.parse('PIL==1.1.7'))
+------------------------------------------------------------
+/usr/local/bin/pip run on Tue Mar 27 11:32:43 2012
+Downloading/unpacking django-mptt
+  Getting page http://pypi.python.org/simple/django-mptt
+  URLs to search for versions for django-mptt:
+  * http://pypi.python.org/simple/django-mptt/
+  Getting page http://code.google.com/p/django-mptt/
+  Getting page http://github.com/django-mptt/django-mptt
+  Analyzing links from page http://pypi.python.org/simple/django-mptt/
+    Found link http://pypi.python.org/packages/source/d/django-mptt/django-mptt-0.2.zip#md5=8fb09a517b38809d66b1feac264f4764 (from http://pypi.python.org/simple/django-mptt/), version: 0.2
+    Found link http://pypi.python.org/packages/source/d/django-mptt/django-mptt-0.1.zip#md5=a57cc23bffb35bea190ad8898f849648 (from http://pypi.python.org/simple/django-mptt/), version: 0.1
+    Skipping link http://pypi.python.org/packages/any/d/django-mptt/django-mptt-0.2.win32.exe#md5=b377c2e5d8d34d861047f5ba1402e205 (from http://pypi.python.org/simple/django-mptt/); unknown archive format: .exe
+    Found link http://pypi.python.org/packages/source/d/django-mptt/django-mptt-0.2.1.zip#md5=2271ef5ab34acaa8960c9ee3ba2b827d (from http://pypi.python.org/simple/django-mptt/), version: 0.2.1
+    Skipping link http://pypi.python.org/packages/any/d/django-mptt/django-mptt-0.2.1.win32.exe#md5=03e12e0c40c17b44f64d5c69452612b9 (from http://pypi.python.org/simple/django-mptt/); unknown archive format: .exe
+    Skipping link http://pypi.python.org/packages/any/d/django-mptt/django-mptt-0.1.win32.exe#md5=708e42e5972e2d6673558bcb8ece6bb9 (from http://pypi.python.org/simple/django-mptt/); unknown archive format: .exe
+    Found link http://pypi.python.org/packages/source/d/django-mptt/django-mptt-0.3.0.zip#md5=5cf2996e92841ae29065b5408120201e (from http://pypi.python.org/simple/django-mptt/), version: 0.3.0
+    Found link http://pypi.python.org/packages/source/d/django-mptt/django-mptt-0.4.1.zip#md5=54bf086ee6a4579b44024d90dfb0fcf2 (from http://pypi.python.org/simple/django-mptt/), version: 0.4.1
+    Found link http://pypi.python.org/packages/source/d/django-mptt/django-mptt-0.4.0.zip#md5=74324404394488b9c2c37a2a9537c211 (from http://pypi.python.org/simple/django-mptt/), version: 0.4.0
+    Found link http://pypi.python.org/packages/source/d/django-mptt/django-mptt-0.3.1.zip#md5=487df8005d646ecaa788c19d746c0b2e (from http://pypi.python.org/simple/django-mptt/), version: 0.3.1
+    Found link http://pypi.python.org/packages/source/d/django-mptt/django-mptt-0.5.2.tar.gz#md5=6ec68521dd456311546ed6cf29f84f14 (from http://pypi.python.org/simple/django-mptt/), version: 0.5.2
+    Found link http://pypi.python.org/packages/source/d/django-mptt/django-mptt-0.4.2.zip#md5=25156bf76b434e844a6141b24c4929da (from http://pypi.python.org/simple/django-mptt/), version: 0.4.2
+    Found link http://pypi.python.org/packages/source/d/django-mptt/django-mptt-0.5.1.tar.gz#md5=d863b0f0a1a1448a954e56ab97147859 (from http://pypi.python.org/simple/django-mptt/), version: 0.5.1
+    Found link http://pypi.python.org/packages/source/d/django-mptt/django-mptt-0.5.0.tar.gz#md5=433d794af6614881e75935b9fede2daa (from http://pypi.python.org/simple/django-mptt/), version: 0.5.0
+    Skipping link http://code.google.com/p/django-mptt/ (from http://pypi.python.org/simple/django-mptt/); not a file
+    Skipping link http://github.com/django-mptt/django-mptt (from http://pypi.python.org/simple/django-mptt/); not a file
+  Analyzing links from page http://code.google.com/p/django-mptt/
+    Skipping link http://www.gstatic.com/codesite/ph/images/phosting.ico (from http://code.google.com/p/django-mptt/); unknown archive format: .ico
+    Skipping link http://www.gstatic.com/codesite/ph/16910002703874313365/css/core.css (from http://code.google.com/p/django-mptt/); unknown archive format: .css
+    Skipping link http://www.gstatic.com/codesite/ph/16910002703874313365/css/ph_detail.css (from http://code.google.com/p/django-mptt/); unknown archive format: .css
+    Skipping link http://www.gstatic.com/codesite/ph/16910002703874313365/css/d_ie.css (from http://code.google.com/p/django-mptt/); unknown archive format: .css
+    Skipping link http://code.google.com/p/django-mptt/ (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fdjango-mptt%2F&amp;followup=http%3A%2F%2Fcode.google.com%2Fp%2Fdjango-mptt%2F (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://www.firefox.com (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://www.google.com/chrome (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/chrome/chromeframe/ (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/downloads/list (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/w/list (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/wiki/GithubIssues?tm=3 (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/wiki/SourceCode?tm=4 (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/people/list (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/feeds (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://www.opensource.org/licenses/bsd-license.php (from http://code.google.com/p/django-mptt/); unknown archive format: .php
+    Skipping link http://code.google.com/hosting/search?q=label:django (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:mptt (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:nestedsets (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:trees (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:python (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/u/craig.ds@gmail.com/ (from http://code.google.com/p/django-mptt/); unknown archive format: .com
+    Skipping link http://github.com/django-mptt/django-mptt/ (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://groups.google.com/group/django-mptt-dev (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/#Moved_to_Github (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://django-mptt.github.com/django-mptt/ (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/projecthosting/terms.html (from http://code.google.com/p/django-mptt/); unknown archive format: .html
+    Skipping link http://www.google.com/privacy.html (from http://code.google.com/p/django-mptt/); unknown archive format: .html
+    Skipping link http://code.google.com/p/support/ (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/projecthosting/ (from http://code.google.com/p/django-mptt/); not a file
+  Analyzing links from page http://code.google.com/p/django-mptt/
+    Skipping link http://www.gstatic.com/codesite/ph/images/phosting.ico (from http://code.google.com/p/django-mptt/); unknown archive format: .ico
+    Skipping link http://www.gstatic.com/codesite/ph/16910002703874313365/css/core.css (from http://code.google.com/p/django-mptt/); unknown archive format: .css
+    Skipping link http://www.gstatic.com/codesite/ph/16910002703874313365/css/ph_detail.css (from http://code.google.com/p/django-mptt/); unknown archive format: .css
+    Skipping link http://www.gstatic.com/codesite/ph/16910002703874313365/css/d_ie.css (from http://code.google.com/p/django-mptt/); unknown archive format: .css
+    Skipping link http://code.google.com/p/django-mptt/ (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fdjango-mptt%2F&amp;followup=http%3A%2F%2Fcode.google.com%2Fp%2Fdjango-mptt%2F (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://www.firefox.com (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://www.google.com/chrome (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/chrome/chromeframe/ (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/downloads/list (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/w/list (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/wiki/GithubIssues?tm=3 (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/wiki/SourceCode?tm=4 (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/people/list (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/feeds (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://www.opensource.org/licenses/bsd-license.php (from http://code.google.com/p/django-mptt/); unknown archive format: .php
+    Skipping link http://code.google.com/hosting/search?q=label:django (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:mptt (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:nestedsets (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:trees (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:python (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/u/craig.ds@gmail.com/ (from http://code.google.com/p/django-mptt/); unknown archive format: .com
+    Skipping link http://github.com/django-mptt/django-mptt/ (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://groups.google.com/group/django-mptt-dev (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/#Moved_to_Github (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://django-mptt.github.com/django-mptt/ (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/projecthosting/terms.html (from http://code.google.com/p/django-mptt/); unknown archive format: .html
+    Skipping link http://www.google.com/privacy.html (from http://code.google.com/p/django-mptt/); unknown archive format: .html
+    Skipping link http://code.google.com/p/support/ (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/projecthosting/ (from http://code.google.com/p/django-mptt/); not a file
+  Analyzing links from page https://github.com/django-mptt/django-mptt
+    Skipping link https://github.com/opensearch.xml (from https://github.com/django-mptt/django-mptt); unknown archive format: .xml
+    Skipping link https://github.com/fluidicon.png (from https://github.com/django-mptt/django-mptt); unknown archive format: .png
+    Skipping link https://github.com/favicon.ico (from https://github.com/django-mptt/django-mptt); unknown archive format: .ico
+    Skipping link https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github-fa63b2501ea82170d5b3b1469e26c6fa6c3116dc.css (from https://github.com/django-mptt/django-mptt); unknown archive format: .css
+    Skipping link https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github2-91edb26eeecbdea76badb0303870401293b53de1.css (from https://github.com/django-mptt/django-mptt); unknown archive format: .css
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master.atom (from https://github.com/django-mptt/django-mptt); unknown archive format: .atom
+    Skipping link https://github.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/plans (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/explore (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/features (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/blog (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/login?return_to=%2Fdjango-mptt%2Fdjango-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/watchers (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/network (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/pulls (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/graphs (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/languages/Python (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/languages/Shell (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt#readme (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http:// (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/zipball/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt.git (from https://github.com/django-mptt/django-mptt); unknown archive format: .git
+    Skipping link git://github.com/django-mptt/django-mptt.git (from https://github.com/django-mptt/django-mptt); unknown archive format: .git
+    Skipping link https://github.com/django-mptt/django-mptt/dismiss-tree-finder-help (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tags (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/downloads (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link javascript:; (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/gh-pages (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.2 (from https://github.com/django-mptt/django-mptt); unknown archive format: .2
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.2 (from https://github.com/django-mptt/django-mptt); unknown archive format: .2
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/branches (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/f994bdf935b8b0f959330b77e1d7932ec86b2c2f (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/177 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/craigds (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/docs (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/8ab6a85aecd8023afb709ab5e1e3ad26e58a84a4 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/tests (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/ac8087364b5f948e7b2d5eeadeb972d8a641bdad (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/107 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/.gitignore (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/ea645d3366231ef3c46617620757ca0de7128e0e (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/INSTALL (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/aff5dd41214f8ac2376e2633a1a17cc2ad06180c (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/LICENSE (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/15958bfb9c357efefe6bef39288a1ff7c821936b (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/MANIFEST.in (from https://github.com/django-mptt/django-mptt); unknown archive format: .in
+    Skipping link https://github.com/django-mptt/django-mptt/commit/d05371254d4bd12dcbf2cf688296cd9aaf7f5267 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/cans (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/128 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/NOTES (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/6772edf0d60485fd065fbf3b5d43c99820abc88a (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/README.rst (from https://github.com/django-mptt/django-mptt); unknown archive format: .rst
+    Skipping link https://github.com/django-mptt/django-mptt/commit/2d1f6d42447cc3dc688ec67258abc65798aa75b2 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/setup.py (from https://github.com/django-mptt/django-mptt); unknown archive format: .py
+    Skipping link https://github.com/django-mptt/django-mptt/commit/384b179a36cf221c815045c2e8fa74ec118c04ea (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/tox.ini (from https://github.com/django-mptt/django-mptt); unknown archive format: .ini
+    Skipping link http://github.com/django-mptt/django-mptt/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://django-mptt.github.com/django-mptt/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://groups.google.com/group/django-mptt-dev (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.intelligententerprise.com/001020/celko.jhtml (from https://github.com/django-mptt/django-mptt); unknown archive format: .jhtml
+    Skipping link http://www.sitepoint.com/print/hierarchical-data-database (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://dev.mysql.com/tech-resources/articles/hierarchical-data.html (from https://github.com/django-mptt/django-mptt); unknown archive format: .html
+    Skipping link https://github.com/about (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/contact (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/training (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://enterprise.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://status.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://get.gaug.es/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://speakerdeck.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://gist.github.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://mac.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://mobile.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://jobs.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://shop.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://octodex.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://help.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://developer.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://github.github.com/github-flavored-markdown/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://pages.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/site/terms (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/site/privacy (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/security (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspace.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspace.com%20 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspacecloud.com (from https://github.com/django-mptt/django-mptt); not a file
+    Could not parse version from link: http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip (from https://github.com/django-mptt/django-mptt)
+    Skipping link http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip (from https://github.com/django-mptt/django-mptt); wrong project name (not django-mptt)
+    Could not parse version from link: http://github-media-downloads.s3.amazonaws.com/Octocats.zip (from https://github.com/django-mptt/django-mptt)
+    Skipping link http://github-media-downloads.s3.amazonaws.com/Octocats.zip (from https://github.com/django-mptt/django-mptt); wrong project name (not django-mptt)
+  Analyzing links from page https://github.com/django-mptt/django-mptt
+    Skipping link https://github.com/opensearch.xml (from https://github.com/django-mptt/django-mptt); unknown archive format: .xml
+    Skipping link https://github.com/fluidicon.png (from https://github.com/django-mptt/django-mptt); unknown archive format: .png
+    Skipping link https://github.com/favicon.ico (from https://github.com/django-mptt/django-mptt); unknown archive format: .ico
+    Skipping link https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github-fa63b2501ea82170d5b3b1469e26c6fa6c3116dc.css (from https://github.com/django-mptt/django-mptt); unknown archive format: .css
+    Skipping link https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github2-91edb26eeecbdea76badb0303870401293b53de1.css (from https://github.com/django-mptt/django-mptt); unknown archive format: .css
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master.atom (from https://github.com/django-mptt/django-mptt); unknown archive format: .atom
+    Skipping link https://github.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/plans (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/explore (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/features (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/blog (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/login?return_to=%2Fdjango-mptt%2Fdjango-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/watchers (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/network (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/pulls (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/graphs (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/languages/Python (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/languages/Shell (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt#readme (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http:// (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/zipball/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt.git (from https://github.com/django-mptt/django-mptt); unknown archive format: .git
+    Skipping link git://github.com/django-mptt/django-mptt.git (from https://github.com/django-mptt/django-mptt); unknown archive format: .git
+    Skipping link https://github.com/django-mptt/django-mptt/dismiss-tree-finder-help (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tags (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/downloads (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link javascript:; (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/gh-pages (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.2 (from https://github.com/django-mptt/django-mptt); unknown archive format: .2
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.2 (from https://github.com/django-mptt/django-mptt); unknown archive format: .2
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/branches (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/f994bdf935b8b0f959330b77e1d7932ec86b2c2f (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/177 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/craigds (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/docs (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/8ab6a85aecd8023afb709ab5e1e3ad26e58a84a4 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/tests (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/ac8087364b5f948e7b2d5eeadeb972d8a641bdad (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/107 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/.gitignore (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/ea645d3366231ef3c46617620757ca0de7128e0e (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/INSTALL (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/aff5dd41214f8ac2376e2633a1a17cc2ad06180c (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/LICENSE (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/15958bfb9c357efefe6bef39288a1ff7c821936b (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/MANIFEST.in (from https://github.com/django-mptt/django-mptt); unknown archive format: .in
+    Skipping link https://github.com/django-mptt/django-mptt/commit/d05371254d4bd12dcbf2cf688296cd9aaf7f5267 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/cans (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/128 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/NOTES (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/6772edf0d60485fd065fbf3b5d43c99820abc88a (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/README.rst (from https://github.com/django-mptt/django-mptt); unknown archive format: .rst
+    Skipping link https://github.com/django-mptt/django-mptt/commit/2d1f6d42447cc3dc688ec67258abc65798aa75b2 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/setup.py (from https://github.com/django-mptt/django-mptt); unknown archive format: .py
+    Skipping link https://github.com/django-mptt/django-mptt/commit/384b179a36cf221c815045c2e8fa74ec118c04ea (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/tox.ini (from https://github.com/django-mptt/django-mptt); unknown archive format: .ini
+    Skipping link http://github.com/django-mptt/django-mptt/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://django-mptt.github.com/django-mptt/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://groups.google.com/group/django-mptt-dev (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.intelligententerprise.com/001020/celko.jhtml (from https://github.com/django-mptt/django-mptt); unknown archive format: .jhtml
+    Skipping link http://www.sitepoint.com/print/hierarchical-data-database (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://dev.mysql.com/tech-resources/articles/hierarchical-data.html (from https://github.com/django-mptt/django-mptt); unknown archive format: .html
+    Skipping link https://github.com/about (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/contact (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/training (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://enterprise.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://status.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://get.gaug.es/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://speakerdeck.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://gist.github.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://mac.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://mobile.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://jobs.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://shop.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://octodex.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://help.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://developer.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://github.github.com/github-flavored-markdown/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://pages.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/site/terms (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/site/privacy (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/security (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspace.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspace.com%20 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspacecloud.com (from https://github.com/django-mptt/django-mptt); not a file
+    Could not parse version from link: http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip (from https://github.com/django-mptt/django-mptt)
+    Skipping link http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip (from https://github.com/django-mptt/django-mptt); wrong project name (not django-mptt)
+    Could not parse version from link: http://github-media-downloads.s3.amazonaws.com/Octocats.zip (from https://github.com/django-mptt/django-mptt)
+    Skipping link http://github-media-downloads.s3.amazonaws.com/Octocats.zip (from https://github.com/django-mptt/django-mptt); wrong project name (not django-mptt)
+  Analyzing links from page https://github.com/django-mptt/django-mptt
+    Skipping link https://github.com/opensearch.xml (from https://github.com/django-mptt/django-mptt); unknown archive format: .xml
+    Skipping link https://github.com/fluidicon.png (from https://github.com/django-mptt/django-mptt); unknown archive format: .png
+    Skipping link https://github.com/favicon.ico (from https://github.com/django-mptt/django-mptt); unknown archive format: .ico
+    Skipping link https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github-fa63b2501ea82170d5b3b1469e26c6fa6c3116dc.css (from https://github.com/django-mptt/django-mptt); unknown archive format: .css
+    Skipping link https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github2-91edb26eeecbdea76badb0303870401293b53de1.css (from https://github.com/django-mptt/django-mptt); unknown archive format: .css
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master.atom (from https://github.com/django-mptt/django-mptt); unknown archive format: .atom
+    Skipping link https://github.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/plans (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/explore (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/features (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/blog (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/login?return_to=%2Fdjango-mptt%2Fdjango-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/watchers (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/network (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/pulls (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/graphs (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/languages/Python (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/languages/Shell (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt#readme (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http:// (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/zipball/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt.git (from https://github.com/django-mptt/django-mptt); unknown archive format: .git
+    Skipping link git://github.com/django-mptt/django-mptt.git (from https://github.com/django-mptt/django-mptt); unknown archive format: .git
+    Skipping link https://github.com/django-mptt/django-mptt/dismiss-tree-finder-help (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tags (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/downloads (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link javascript:; (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/gh-pages (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.2 (from https://github.com/django-mptt/django-mptt); unknown archive format: .2
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.2 (from https://github.com/django-mptt/django-mptt); unknown archive format: .2
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/branches (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/f994bdf935b8b0f959330b77e1d7932ec86b2c2f (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/177 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/craigds (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/docs (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/8ab6a85aecd8023afb709ab5e1e3ad26e58a84a4 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/tests (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/ac8087364b5f948e7b2d5eeadeb972d8a641bdad (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/107 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/.gitignore (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/ea645d3366231ef3c46617620757ca0de7128e0e (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/INSTALL (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/aff5dd41214f8ac2376e2633a1a17cc2ad06180c (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/LICENSE (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/15958bfb9c357efefe6bef39288a1ff7c821936b (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/MANIFEST.in (from https://github.com/django-mptt/django-mptt); unknown archive format: .in
+    Skipping link https://github.com/django-mptt/django-mptt/commit/d05371254d4bd12dcbf2cf688296cd9aaf7f5267 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/cans (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/128 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/NOTES (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/6772edf0d60485fd065fbf3b5d43c99820abc88a (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/README.rst (from https://github.com/django-mptt/django-mptt); unknown archive format: .rst
+    Skipping link https://github.com/django-mptt/django-mptt/commit/2d1f6d42447cc3dc688ec67258abc65798aa75b2 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/setup.py (from https://github.com/django-mptt/django-mptt); unknown archive format: .py
+    Skipping link https://github.com/django-mptt/django-mptt/commit/384b179a36cf221c815045c2e8fa74ec118c04ea (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/tox.ini (from https://github.com/django-mptt/django-mptt); unknown archive format: .ini
+    Skipping link http://github.com/django-mptt/django-mptt/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://django-mptt.github.com/django-mptt/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://groups.google.com/group/django-mptt-dev (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.intelligententerprise.com/001020/celko.jhtml (from https://github.com/django-mptt/django-mptt); unknown archive format: .jhtml
+    Skipping link http://www.sitepoint.com/print/hierarchical-data-database (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://dev.mysql.com/tech-resources/articles/hierarchical-data.html (from https://github.com/django-mptt/django-mptt); unknown archive format: .html
+    Skipping link https://github.com/about (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/contact (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/training (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://enterprise.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://status.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://get.gaug.es/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://speakerdeck.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://gist.github.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://mac.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://mobile.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://jobs.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://shop.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://octodex.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://help.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://developer.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://github.github.com/github-flavored-markdown/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://pages.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/site/terms (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/site/privacy (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/security (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspace.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspace.com%20 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspacecloud.com (from https://github.com/django-mptt/django-mptt); not a file
+    Could not parse version from link: http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip (from https://github.com/django-mptt/django-mptt)
+    Skipping link http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip (from https://github.com/django-mptt/django-mptt); wrong project name (not django-mptt)
+    Could not parse version from link: http://github-media-downloads.s3.amazonaws.com/Octocats.zip (from https://github.com/django-mptt/django-mptt)
+    Skipping link http://github-media-downloads.s3.amazonaws.com/Octocats.zip (from https://github.com/django-mptt/django-mptt); wrong project name (not django-mptt)
+  Analyzing links from page https://github.com/django-mptt/django-mptt
+    Skipping link https://github.com/opensearch.xml (from https://github.com/django-mptt/django-mptt); unknown archive format: .xml
+    Skipping link https://github.com/fluidicon.png (from https://github.com/django-mptt/django-mptt); unknown archive format: .png
+    Skipping link https://github.com/favicon.ico (from https://github.com/django-mptt/django-mptt); unknown archive format: .ico
+    Skipping link https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github-fa63b2501ea82170d5b3b1469e26c6fa6c3116dc.css (from https://github.com/django-mptt/django-mptt); unknown archive format: .css
+    Skipping link https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github2-91edb26eeecbdea76badb0303870401293b53de1.css (from https://github.com/django-mptt/django-mptt); unknown archive format: .css
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master.atom (from https://github.com/django-mptt/django-mptt); unknown archive format: .atom
+    Skipping link https://github.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/plans (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/explore (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/features (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/blog (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/login?return_to=%2Fdjango-mptt%2Fdjango-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/watchers (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/network (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/pulls (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/graphs (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/languages/Python (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/languages/Shell (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt#readme (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http:// (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/zipball/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt.git (from https://github.com/django-mptt/django-mptt); unknown archive format: .git
+    Skipping link git://github.com/django-mptt/django-mptt.git (from https://github.com/django-mptt/django-mptt); unknown archive format: .git
+    Skipping link https://github.com/django-mptt/django-mptt/dismiss-tree-finder-help (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tags (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/downloads (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link javascript:; (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/gh-pages (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.2 (from https://github.com/django-mptt/django-mptt); unknown archive format: .2
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.2 (from https://github.com/django-mptt/django-mptt); unknown archive format: .2
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/branches (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/f994bdf935b8b0f959330b77e1d7932ec86b2c2f (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/177 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/craigds (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/docs (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/8ab6a85aecd8023afb709ab5e1e3ad26e58a84a4 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/tests (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/ac8087364b5f948e7b2d5eeadeb972d8a641bdad (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/107 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/.gitignore (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/ea645d3366231ef3c46617620757ca0de7128e0e (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/INSTALL (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/aff5dd41214f8ac2376e2633a1a17cc2ad06180c (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/LICENSE (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/15958bfb9c357efefe6bef39288a1ff7c821936b (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/MANIFEST.in (from https://github.com/django-mptt/django-mptt); unknown archive format: .in
+    Skipping link https://github.com/django-mptt/django-mptt/commit/d05371254d4bd12dcbf2cf688296cd9aaf7f5267 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/cans (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/128 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/NOTES (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/6772edf0d60485fd065fbf3b5d43c99820abc88a (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/README.rst (from https://github.com/django-mptt/django-mptt); unknown archive format: .rst
+    Skipping link https://github.com/django-mptt/django-mptt/commit/2d1f6d42447cc3dc688ec67258abc65798aa75b2 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/setup.py (from https://github.com/django-mptt/django-mptt); unknown archive format: .py
+    Skipping link https://github.com/django-mptt/django-mptt/commit/384b179a36cf221c815045c2e8fa74ec118c04ea (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/tox.ini (from https://github.com/django-mptt/django-mptt); unknown archive format: .ini
+    Skipping link http://github.com/django-mptt/django-mptt/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://django-mptt.github.com/django-mptt/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://groups.google.com/group/django-mptt-dev (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.intelligententerprise.com/001020/celko.jhtml (from https://github.com/django-mptt/django-mptt); unknown archive format: .jhtml
+    Skipping link http://www.sitepoint.com/print/hierarchical-data-database (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://dev.mysql.com/tech-resources/articles/hierarchical-data.html (from https://github.com/django-mptt/django-mptt); unknown archive format: .html
+    Skipping link https://github.com/about (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/contact (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/training (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://enterprise.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://status.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://get.gaug.es/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://speakerdeck.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://gist.github.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://mac.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://mobile.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://jobs.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://shop.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://octodex.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://help.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://developer.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://github.github.com/github-flavored-markdown/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://pages.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/site/terms (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/site/privacy (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/security (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspace.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspace.com%20 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspacecloud.com (from https://github.com/django-mptt/django-mptt); not a file
+    Could not parse version from link: http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip (from https://github.com/django-mptt/django-mptt)
+    Skipping link http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip (from https://github.com/django-mptt/django-mptt); wrong project name (not django-mptt)
+    Could not parse version from link: http://github-media-downloads.s3.amazonaws.com/Octocats.zip (from https://github.com/django-mptt/django-mptt)
+    Skipping link http://github-media-downloads.s3.amazonaws.com/Octocats.zip (from https://github.com/django-mptt/django-mptt); wrong project name (not django-mptt)
+  Analyzing links from page https://github.com/django-mptt/django-mptt
+    Skipping link https://github.com/opensearch.xml (from https://github.com/django-mptt/django-mptt); unknown archive format: .xml
+    Skipping link https://github.com/fluidicon.png (from https://github.com/django-mptt/django-mptt); unknown archive format: .png
+    Skipping link https://github.com/favicon.ico (from https://github.com/django-mptt/django-mptt); unknown archive format: .ico
+    Skipping link https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github-fa63b2501ea82170d5b3b1469e26c6fa6c3116dc.css (from https://github.com/django-mptt/django-mptt); unknown archive format: .css
+    Skipping link https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github2-91edb26eeecbdea76badb0303870401293b53de1.css (from https://github.com/django-mptt/django-mptt); unknown archive format: .css
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master.atom (from https://github.com/django-mptt/django-mptt); unknown archive format: .atom
+    Skipping link https://github.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/plans (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/explore (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/features (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/blog (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/login?return_to=%2Fdjango-mptt%2Fdjango-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/watchers (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/network (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/pulls (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/graphs (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/languages/Python (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/languages/Shell (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt#readme (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http:// (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/zipball/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt.git (from https://github.com/django-mptt/django-mptt); unknown archive format: .git
+    Skipping link git://github.com/django-mptt/django-mptt.git (from https://github.com/django-mptt/django-mptt); unknown archive format: .git
+    Skipping link https://github.com/django-mptt/django-mptt/dismiss-tree-finder-help (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tags (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/downloads (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link javascript:; (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/gh-pages (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.2 (from https://github.com/django-mptt/django-mptt); unknown archive format: .2
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.2 (from https://github.com/django-mptt/django-mptt); unknown archive format: .2
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/branches (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/f994bdf935b8b0f959330b77e1d7932ec86b2c2f (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/177 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/craigds (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/docs (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/8ab6a85aecd8023afb709ab5e1e3ad26e58a84a4 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/tests (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/ac8087364b5f948e7b2d5eeadeb972d8a641bdad (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/107 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/.gitignore (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/ea645d3366231ef3c46617620757ca0de7128e0e (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/INSTALL (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/aff5dd41214f8ac2376e2633a1a17cc2ad06180c (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/LICENSE (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/15958bfb9c357efefe6bef39288a1ff7c821936b (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/MANIFEST.in (from https://github.com/django-mptt/django-mptt); unknown archive format: .in
+    Skipping link https://github.com/django-mptt/django-mptt/commit/d05371254d4bd12dcbf2cf688296cd9aaf7f5267 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/cans (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/128 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/NOTES (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/6772edf0d60485fd065fbf3b5d43c99820abc88a (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/README.rst (from https://github.com/django-mptt/django-mptt); unknown archive format: .rst
+    Skipping link https://github.com/django-mptt/django-mptt/commit/2d1f6d42447cc3dc688ec67258abc65798aa75b2 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/setup.py (from https://github.com/django-mptt/django-mptt); unknown archive format: .py
+    Skipping link https://github.com/django-mptt/django-mptt/commit/384b179a36cf221c815045c2e8fa74ec118c04ea (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/tox.ini (from https://github.com/django-mptt/django-mptt); unknown archive format: .ini
+    Skipping link http://github.com/django-mptt/django-mptt/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://django-mptt.github.com/django-mptt/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://groups.google.com/group/django-mptt-dev (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.intelligententerprise.com/001020/celko.jhtml (from https://github.com/django-mptt/django-mptt); unknown archive format: .jhtml
+    Skipping link http://www.sitepoint.com/print/hierarchical-data-database (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://dev.mysql.com/tech-resources/articles/hierarchical-data.html (from https://github.com/django-mptt/django-mptt); unknown archive format: .html
+    Skipping link https://github.com/about (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/contact (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/training (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://enterprise.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://status.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://get.gaug.es/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://speakerdeck.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://gist.github.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://mac.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://mobile.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://jobs.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://shop.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://octodex.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://help.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://developer.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://github.github.com/github-flavored-markdown/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://pages.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/site/terms (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/site/privacy (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/security (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspace.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspace.com%20 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspacecloud.com (from https://github.com/django-mptt/django-mptt); not a file
+    Could not parse version from link: http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip (from https://github.com/django-mptt/django-mptt)
+    Skipping link http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip (from https://github.com/django-mptt/django-mptt); wrong project name (not django-mptt)
+    Could not parse version from link: http://github-media-downloads.s3.amazonaws.com/Octocats.zip (from https://github.com/django-mptt/django-mptt)
+    Skipping link http://github-media-downloads.s3.amazonaws.com/Octocats.zip (from https://github.com/django-mptt/django-mptt); wrong project name (not django-mptt)
+  Analyzing links from page https://github.com/django-mptt/django-mptt
+    Skipping link https://github.com/opensearch.xml (from https://github.com/django-mptt/django-mptt); unknown archive format: .xml
+    Skipping link https://github.com/fluidicon.png (from https://github.com/django-mptt/django-mptt); unknown archive format: .png
+    Skipping link https://github.com/favicon.ico (from https://github.com/django-mptt/django-mptt); unknown archive format: .ico
+    Skipping link https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github-fa63b2501ea82170d5b3b1469e26c6fa6c3116dc.css (from https://github.com/django-mptt/django-mptt); unknown archive format: .css
+    Skipping link https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github2-91edb26eeecbdea76badb0303870401293b53de1.css (from https://github.com/django-mptt/django-mptt); unknown archive format: .css
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master.atom (from https://github.com/django-mptt/django-mptt); unknown archive format: .atom
+    Skipping link https://github.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/plans (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/explore (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/features (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/blog (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/login?return_to=%2Fdjango-mptt%2Fdjango-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/watchers (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/network (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/pulls (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/graphs (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/languages/Python (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/languages/Shell (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt#readme (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http:// (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/zipball/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt.git (from https://github.com/django-mptt/django-mptt); unknown archive format: .git
+    Skipping link git://github.com/django-mptt/django-mptt.git (from https://github.com/django-mptt/django-mptt); unknown archive format: .git
+    Skipping link https://github.com/django-mptt/django-mptt/dismiss-tree-finder-help (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tags (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/downloads (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link javascript:; (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/gh-pages (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.2 (from https://github.com/django-mptt/django-mptt); unknown archive format: .2
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.2 (from https://github.com/django-mptt/django-mptt); unknown archive format: .2
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/branches (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/f994bdf935b8b0f959330b77e1d7932ec86b2c2f (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/177 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/craigds (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/docs (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/8ab6a85aecd8023afb709ab5e1e3ad26e58a84a4 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/tests (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/ac8087364b5f948e7b2d5eeadeb972d8a641bdad (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/107 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/.gitignore (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/ea645d3366231ef3c46617620757ca0de7128e0e (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/INSTALL (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/aff5dd41214f8ac2376e2633a1a17cc2ad06180c (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/LICENSE (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/15958bfb9c357efefe6bef39288a1ff7c821936b (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/MANIFEST.in (from https://github.com/django-mptt/django-mptt); unknown archive format: .in
+    Skipping link https://github.com/django-mptt/django-mptt/commit/d05371254d4bd12dcbf2cf688296cd9aaf7f5267 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/cans (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/128 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/NOTES (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/6772edf0d60485fd065fbf3b5d43c99820abc88a (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/README.rst (from https://github.com/django-mptt/django-mptt); unknown archive format: .rst
+    Skipping link https://github.com/django-mptt/django-mptt/commit/2d1f6d42447cc3dc688ec67258abc65798aa75b2 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/setup.py (from https://github.com/django-mptt/django-mptt); unknown archive format: .py
+    Skipping link https://github.com/django-mptt/django-mptt/commit/384b179a36cf221c815045c2e8fa74ec118c04ea (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/tox.ini (from https://github.com/django-mptt/django-mptt); unknown archive format: .ini
+    Skipping link http://github.com/django-mptt/django-mptt/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://django-mptt.github.com/django-mptt/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://groups.google.com/group/django-mptt-dev (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.intelligententerprise.com/001020/celko.jhtml (from https://github.com/django-mptt/django-mptt); unknown archive format: .jhtml
+    Skipping link http://www.sitepoint.com/print/hierarchical-data-database (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://dev.mysql.com/tech-resources/articles/hierarchical-data.html (from https://github.com/django-mptt/django-mptt); unknown archive format: .html
+    Skipping link https://github.com/about (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/contact (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/training (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://enterprise.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://status.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://get.gaug.es/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://speakerdeck.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://gist.github.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://mac.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://mobile.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://jobs.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://shop.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://octodex.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://help.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://developer.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://github.github.com/github-flavored-markdown/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://pages.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/site/terms (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/site/privacy (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/security (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspace.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspace.com%20 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspacecloud.com (from https://github.com/django-mptt/django-mptt); not a file
+    Could not parse version from link: http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip (from https://github.com/django-mptt/django-mptt)
+    Skipping link http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip (from https://github.com/django-mptt/django-mptt); wrong project name (not django-mptt)
+    Could not parse version from link: http://github-media-downloads.s3.amazonaws.com/Octocats.zip (from https://github.com/django-mptt/django-mptt)
+    Skipping link http://github-media-downloads.s3.amazonaws.com/Octocats.zip (from https://github.com/django-mptt/django-mptt); wrong project name (not django-mptt)
+  Analyzing links from page https://github.com/django-mptt/django-mptt
+    Skipping link https://github.com/opensearch.xml (from https://github.com/django-mptt/django-mptt); unknown archive format: .xml
+    Skipping link https://github.com/fluidicon.png (from https://github.com/django-mptt/django-mptt); unknown archive format: .png
+    Skipping link https://github.com/favicon.ico (from https://github.com/django-mptt/django-mptt); unknown archive format: .ico
+    Skipping link https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github-fa63b2501ea82170d5b3b1469e26c6fa6c3116dc.css (from https://github.com/django-mptt/django-mptt); unknown archive format: .css
+    Skipping link https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github2-91edb26eeecbdea76badb0303870401293b53de1.css (from https://github.com/django-mptt/django-mptt); unknown archive format: .css
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master.atom (from https://github.com/django-mptt/django-mptt); unknown archive format: .atom
+    Skipping link https://github.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/plans (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/explore (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/features (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/blog (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/login?return_to=%2Fdjango-mptt%2Fdjango-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/watchers (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/network (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/pulls (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/graphs (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/languages/Python (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/languages/Shell (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt#readme (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http:// (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/zipball/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt.git (from https://github.com/django-mptt/django-mptt); unknown archive format: .git
+    Skipping link git://github.com/django-mptt/django-mptt.git (from https://github.com/django-mptt/django-mptt); unknown archive format: .git
+    Skipping link https://github.com/django-mptt/django-mptt/dismiss-tree-finder-help (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tags (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/downloads (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link javascript:; (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/gh-pages (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.2 (from https://github.com/django-mptt/django-mptt); unknown archive format: .2
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.2 (from https://github.com/django-mptt/django-mptt); unknown archive format: .2
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/branches (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/f994bdf935b8b0f959330b77e1d7932ec86b2c2f (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/177 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/craigds (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/docs (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/8ab6a85aecd8023afb709ab5e1e3ad26e58a84a4 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/tests (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/ac8087364b5f948e7b2d5eeadeb972d8a641bdad (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/107 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/.gitignore (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/ea645d3366231ef3c46617620757ca0de7128e0e (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/INSTALL (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/aff5dd41214f8ac2376e2633a1a17cc2ad06180c (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/LICENSE (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/15958bfb9c357efefe6bef39288a1ff7c821936b (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/MANIFEST.in (from https://github.com/django-mptt/django-mptt); unknown archive format: .in
+    Skipping link https://github.com/django-mptt/django-mptt/commit/d05371254d4bd12dcbf2cf688296cd9aaf7f5267 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/cans (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/128 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/NOTES (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/6772edf0d60485fd065fbf3b5d43c99820abc88a (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/README.rst (from https://github.com/django-mptt/django-mptt); unknown archive format: .rst
+    Skipping link https://github.com/django-mptt/django-mptt/commit/2d1f6d42447cc3dc688ec67258abc65798aa75b2 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/setup.py (from https://github.com/django-mptt/django-mptt); unknown archive format: .py
+    Skipping link https://github.com/django-mptt/django-mptt/commit/384b179a36cf221c815045c2e8fa74ec118c04ea (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/tox.ini (from https://github.com/django-mptt/django-mptt); unknown archive format: .ini
+    Skipping link http://github.com/django-mptt/django-mptt/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://django-mptt.github.com/django-mptt/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://groups.google.com/group/django-mptt-dev (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.intelligententerprise.com/001020/celko.jhtml (from https://github.com/django-mptt/django-mptt); unknown archive format: .jhtml
+    Skipping link http://www.sitepoint.com/print/hierarchical-data-database (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://dev.mysql.com/tech-resources/articles/hierarchical-data.html (from https://github.com/django-mptt/django-mptt); unknown archive format: .html
+    Skipping link https://github.com/about (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/contact (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/training (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://enterprise.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://status.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://get.gaug.es/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://speakerdeck.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://gist.github.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://mac.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://mobile.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://jobs.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://shop.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://octodex.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://help.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://developer.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://github.github.com/github-flavored-markdown/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://pages.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/site/terms (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/site/privacy (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/security (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspace.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspace.com%20 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspacecloud.com (from https://github.com/django-mptt/django-mptt); not a file
+    Could not parse version from link: http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip (from https://github.com/django-mptt/django-mptt)
+    Skipping link http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip (from https://github.com/django-mptt/django-mptt); wrong project name (not django-mptt)
+    Could not parse version from link: http://github-media-downloads.s3.amazonaws.com/Octocats.zip (from https://github.com/django-mptt/django-mptt)
+    Skipping link http://github-media-downloads.s3.amazonaws.com/Octocats.zip (from https://github.com/django-mptt/django-mptt); wrong project name (not django-mptt)
+  Analyzing links from page https://github.com/django-mptt/django-mptt
+    Skipping link https://github.com/opensearch.xml (from https://github.com/django-mptt/django-mptt); unknown archive format: .xml
+    Skipping link https://github.com/fluidicon.png (from https://github.com/django-mptt/django-mptt); unknown archive format: .png
+    Skipping link https://github.com/favicon.ico (from https://github.com/django-mptt/django-mptt); unknown archive format: .ico
+    Skipping link https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github-fa63b2501ea82170d5b3b1469e26c6fa6c3116dc.css (from https://github.com/django-mptt/django-mptt); unknown archive format: .css
+    Skipping link https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github2-91edb26eeecbdea76badb0303870401293b53de1.css (from https://github.com/django-mptt/django-mptt); unknown archive format: .css
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master.atom (from https://github.com/django-mptt/django-mptt); unknown archive format: .atom
+    Skipping link https://github.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/plans (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/explore (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/features (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/blog (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/login?return_to=%2Fdjango-mptt%2Fdjango-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/watchers (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/network (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/pulls (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/graphs (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/languages/Python (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/languages/Shell (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt#readme (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http:// (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/zipball/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt.git (from https://github.com/django-mptt/django-mptt); unknown archive format: .git
+    Skipping link git://github.com/django-mptt/django-mptt.git (from https://github.com/django-mptt/django-mptt); unknown archive format: .git
+    Skipping link https://github.com/django-mptt/django-mptt/dismiss-tree-finder-help (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tags (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/downloads (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link javascript:; (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.x (from https://github.com/django-mptt/django-mptt); unknown archive format: .x
+    Skipping link https://github.com/django-mptt/django-mptt/tree/gh-pages (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.2 (from https://github.com/django-mptt/django-mptt); unknown archive format: .2
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.5.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.2 (from https://github.com/django-mptt/django-mptt); unknown archive format: .2
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.4.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.1 (from https://github.com/django-mptt/django-mptt); unknown archive format: .1
+    Skipping link https://github.com/django-mptt/django-mptt/tree/0.3.0 (from https://github.com/django-mptt/django-mptt); unknown archive format: .0
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/branches (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/f994bdf935b8b0f959330b77e1d7932ec86b2c2f (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/177 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/craigds (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commits/master/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/docs (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/8ab6a85aecd8023afb709ab5e1e3ad26e58a84a4 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/mptt (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/tree/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/tests (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/ac8087364b5f948e7b2d5eeadeb972d8a641bdad (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/107 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/.gitignore (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/ea645d3366231ef3c46617620757ca0de7128e0e (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/INSTALL (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/aff5dd41214f8ac2376e2633a1a17cc2ad06180c (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/LICENSE (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/15958bfb9c357efefe6bef39288a1ff7c821936b (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/MANIFEST.in (from https://github.com/django-mptt/django-mptt); unknown archive format: .in
+    Skipping link https://github.com/django-mptt/django-mptt/commit/d05371254d4bd12dcbf2cf688296cd9aaf7f5267 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/cans (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/issues/128 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/NOTES (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/commit/6772edf0d60485fd065fbf3b5d43c99820abc88a (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/README.rst (from https://github.com/django-mptt/django-mptt); unknown archive format: .rst
+    Skipping link https://github.com/django-mptt/django-mptt/commit/2d1f6d42447cc3dc688ec67258abc65798aa75b2 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/setup.py (from https://github.com/django-mptt/django-mptt); unknown archive format: .py
+    Skipping link https://github.com/django-mptt/django-mptt/commit/384b179a36cf221c815045c2e8fa74ec118c04ea (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/django-mptt/django-mptt/blob/f994bdf935b8b0f959330b77e1d7932ec86b2c2f/tox.ini (from https://github.com/django-mptt/django-mptt); unknown archive format: .ini
+    Skipping link http://github.com/django-mptt/django-mptt/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://django-mptt.github.com/django-mptt/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://groups.google.com/group/django-mptt-dev (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.intelligententerprise.com/001020/celko.jhtml (from https://github.com/django-mptt/django-mptt); unknown archive format: .jhtml
+    Skipping link http://www.sitepoint.com/print/hierarchical-data-database (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://dev.mysql.com/tech-resources/articles/hierarchical-data.html (from https://github.com/django-mptt/django-mptt); unknown archive format: .html
+    Skipping link https://github.com/about (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/contact (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/training (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://enterprise.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://status.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://get.gaug.es/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://speakerdeck.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://gist.github.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://mac.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://mobile.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://jobs.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://shop.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://octodex.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://help.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://developer.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://github.github.com/github-flavored-markdown/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://pages.github.com/ (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/site/terms (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/site/privacy (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link https://github.com/security (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspace.com (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspace.com%20 (from https://github.com/django-mptt/django-mptt); not a file
+    Skipping link http://www.rackspacecloud.com (from https://github.com/django-mptt/django-mptt); not a file
+    Could not parse version from link: http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip (from https://github.com/django-mptt/django-mptt)
+    Skipping link http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip (from https://github.com/django-mptt/django-mptt); wrong project name (not django-mptt)
+    Could not parse version from link: http://github-media-downloads.s3.amazonaws.com/Octocats.zip (from https://github.com/django-mptt/django-mptt)
+    Skipping link http://github-media-downloads.s3.amazonaws.com/Octocats.zip (from https://github.com/django-mptt/django-mptt); wrong project name (not django-mptt)
+  Analyzing links from page http://code.google.com/p/django-mptt/
+    Skipping link http://www.gstatic.com/codesite/ph/images/phosting.ico (from http://code.google.com/p/django-mptt/); unknown archive format: .ico
+    Skipping link http://www.gstatic.com/codesite/ph/16910002703874313365/css/core.css (from http://code.google.com/p/django-mptt/); unknown archive format: .css
+    Skipping link http://www.gstatic.com/codesite/ph/16910002703874313365/css/ph_detail.css (from http://code.google.com/p/django-mptt/); unknown archive format: .css
+    Skipping link http://www.gstatic.com/codesite/ph/16910002703874313365/css/d_ie.css (from http://code.google.com/p/django-mptt/); unknown archive format: .css
+    Skipping link http://code.google.com/p/django-mptt/ (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fdjango-mptt%2F&amp;followup=http%3A%2F%2Fcode.google.com%2Fp%2Fdjango-mptt%2F (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://www.firefox.com (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://www.google.com/chrome (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/chrome/chromeframe/ (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/downloads/list (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/w/list (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/wiki/GithubIssues?tm=3 (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/wiki/SourceCode?tm=4 (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/people/list (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/feeds (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://www.opensource.org/licenses/bsd-license.php (from http://code.google.com/p/django-mptt/); unknown archive format: .php
+    Skipping link http://code.google.com/hosting/search?q=label:django (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:mptt (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:nestedsets (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:trees (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:python (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/u/craig.ds@gmail.com/ (from http://code.google.com/p/django-mptt/); unknown archive format: .com
+    Skipping link http://github.com/django-mptt/django-mptt/ (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://groups.google.com/group/django-mptt-dev (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/p/django-mptt/#Moved_to_Github (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://django-mptt.github.com/django-mptt/ (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/projecthosting/terms.html (from http://code.google.com/p/django-mptt/); unknown archive format: .html
+    Skipping link http://www.google.com/privacy.html (from http://code.google.com/p/django-mptt/); unknown archive format: .html
+    Skipping link http://code.google.com/p/support/ (from http://code.google.com/p/django-mptt/); not a file
+    Skipping link http://code.google.com/projecthosting/ (from http://code.google.com/p/django-mptt/); not a file
+  Using version 0.5.2 (newest of versions: 0.5.2, 0.5.1, 0.5.0, 0.4.2, 0.4.1, 0.4.0, 0.3.1, 0.3.0, 0.2.1, 0.2, 0.1)
+  Downloading from URL http://pypi.python.org/packages/source/d/django-mptt/django-mptt-0.5.2.tar.gz#md5=6ec68521dd456311546ed6cf29f84f14 (from http://pypi.python.org/simple/django-mptt/)
+  Running setup.py egg_info for package django-mptt
+    running egg_info
+    creating pip-egg-info/django_mptt.egg-info
+    writing pip-egg-info/django_mptt.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/django_mptt.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/django_mptt.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/django_mptt.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    reading manifest file 'pip-egg-info/django_mptt.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching '*.json' under directory 'mptt'
+    writing manifest file 'pip-egg-info/django_mptt.egg-info/SOURCES.txt'
+  Source in ./build/django-mptt has version 0.5.2, which satisfies requirement django-mptt
+Installing collected packages: django-mptt
+  Running setup.py install for django-mptt
+    Running command /usr/languages/python/2.6/bin/python -c "import setuptools; __file__='/nfs/http7/backup-your-brain/www/bYb/build/django-mptt/setup.py'; execfile('/nfs/http7/backup-your-brain/www/bYb/build/django-mptt/setup.py')" install --single-version-externally-managed --record /tmp/pip-3wF62G-record/install-record.txt --install-headers /nfs/http7/backup-your-brain/www/bYb/lib/include
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-x86_64-2.6
+    creating build/lib.linux-x86_64-2.6/mptt
+    copying mptt/admin.py -> build/lib.linux-x86_64-2.6/mptt
+    copying mptt/forms.py -> build/lib.linux-x86_64-2.6/mptt
+    copying mptt/utils.py -> build/lib.linux-x86_64-2.6/mptt
+    copying mptt/models.py -> build/lib.linux-x86_64-2.6/mptt
+    copying mptt/exceptions.py -> build/lib.linux-x86_64-2.6/mptt
+    copying mptt/managers.py -> build/lib.linux-x86_64-2.6/mptt
+    copying mptt/__init__.py -> build/lib.linux-x86_64-2.6/mptt
+    copying mptt/fields.py -> build/lib.linux-x86_64-2.6/mptt
+    creating build/lib.linux-x86_64-2.6/mptt/templatetags
+    copying mptt/templatetags/mptt_tags.py -> build/lib.linux-x86_64-2.6/mptt/templatetags
+    copying mptt/templatetags/__init__.py -> build/lib.linux-x86_64-2.6/mptt/templatetags
+    copying mptt/templatetags/mptt_admin.py -> build/lib.linux-x86_64-2.6/mptt/templatetags
+    creating build/lib.linux-x86_64-2.6/mptt/templates
+    creating build/lib.linux-x86_64-2.6/mptt/templates/admin
+    copying mptt/templates/admin/mptt_change_list_results.html -> build/lib.linux-x86_64-2.6/mptt/templates/admin
+    copying mptt/templates/admin/mptt_change_list.html -> build/lib.linux-x86_64-2.6/mptt/templates/admin
+    creating build/lib.linux-x86_64-2.6/mptt/locale
+    creating build/lib.linux-x86_64-2.6/mptt/locale/fr
+    creating build/lib.linux-x86_64-2.6/mptt/locale/fr/LC_MESSAGES
+    copying mptt/locale/fr/LC_MESSAGES/django.mo -> build/lib.linux-x86_64-2.6/mptt/locale/fr/LC_MESSAGES
+    copying mptt/locale/fr/LC_MESSAGES/django.po -> build/lib.linux-x86_64-2.6/mptt/locale/fr/LC_MESSAGES
+    creating build/lib.linux-x86_64-2.6/mptt/locale/de
+    creating build/lib.linux-x86_64-2.6/mptt/locale/de/LC_MESSAGES
+    copying mptt/locale/de/LC_MESSAGES/django.mo -> build/lib.linux-x86_64-2.6/mptt/locale/de/LC_MESSAGES
+    copying mptt/locale/de/LC_MESSAGES/django.po -> build/lib.linux-x86_64-2.6/mptt/locale/de/LC_MESSAGES
+    creating build/lib.linux-x86_64-2.6/mptt/locale/pl
+    creating build/lib.linux-x86_64-2.6/mptt/locale/pl/LC_MESSAGES
+    copying mptt/locale/pl/LC_MESSAGES/django.mo -> build/lib.linux-x86_64-2.6/mptt/locale/pl/LC_MESSAGES
+    copying mptt/locale/pl/LC_MESSAGES/django.po -> build/lib.linux-x86_64-2.6/mptt/locale/pl/LC_MESSAGES
+    creating build/lib.linux-x86_64-2.6/mptt/locale/dk
+    creating build/lib.linux-x86_64-2.6/mptt/locale/dk/LC_MESSAGES
+    copying mptt/locale/dk/LC_MESSAGES/django.mo -> build/lib.linux-x86_64-2.6/mptt/locale/dk/LC_MESSAGES
+    copying mptt/locale/dk/LC_MESSAGES/django.po -> build/lib.linux-x86_64-2.6/mptt/locale/dk/LC_MESSAGES
+    running install_lib
+    creating /usr/local/lib/python2.6/site-packages/mptt
+    error: could not create '/usr/local/lib/python2.6/site-packages/mptt': Permission denied
+    Complete output from command /usr/languages/python/2.6/bin/python -c "import setuptools; __file__='/nfs/http7/backup-your-brain/www/bYb/build/django-mptt/setup.py'; execfile('/nfs/http7/backup-your-brain/www/bYb/build/django-mptt/setup.py')" install --single-version-externally-managed --record /tmp/pip-3wF62G-record/install-record.txt --install-headers /nfs/http7/backup-your-brain/www/bYb/lib/include:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-x86_64-2.6
+
+creating build/lib.linux-x86_64-2.6/mptt
+
+copying mptt/admin.py -> build/lib.linux-x86_64-2.6/mptt
+
+copying mptt/forms.py -> build/lib.linux-x86_64-2.6/mptt
+
+copying mptt/utils.py -> build/lib.linux-x86_64-2.6/mptt
+
+copying mptt/models.py -> build/lib.linux-x86_64-2.6/mptt
+
+copying mptt/exceptions.py -> build/lib.linux-x86_64-2.6/mptt
+
+copying mptt/managers.py -> build/lib.linux-x86_64-2.6/mptt
+
+copying mptt/__init__.py -> build/lib.linux-x86_64-2.6/mptt
+
+copying mptt/fields.py -> build/lib.linux-x86_64-2.6/mptt
+
+creating build/lib.linux-x86_64-2.6/mptt/templatetags
+
+copying mptt/templatetags/mptt_tags.py -> build/lib.linux-x86_64-2.6/mptt/templatetags
+
+copying mptt/templatetags/__init__.py -> build/lib.linux-x86_64-2.6/mptt/templatetags
+
+copying mptt/templatetags/mptt_admin.py -> build/lib.linux-x86_64-2.6/mptt/templatetags
+
+creating build/lib.linux-x86_64-2.6/mptt/templates
+
+creating build/lib.linux-x86_64-2.6/mptt/templates/admin
+
+copying mptt/templates/admin/mptt_change_list_results.html -> build/lib.linux-x86_64-2.6/mptt/templates/admin
+
+copying mptt/templates/admin/mptt_change_list.html -> build/lib.linux-x86_64-2.6/mptt/templates/admin
+
+creating build/lib.linux-x86_64-2.6/mptt/locale
+
+creating build/lib.linux-x86_64-2.6/mptt/locale/fr
+
+creating build/lib.linux-x86_64-2.6/mptt/locale/fr/LC_MESSAGES
+
+copying mptt/locale/fr/LC_MESSAGES/django.mo -> build/lib.linux-x86_64-2.6/mptt/locale/fr/LC_MESSAGES
+
+copying mptt/locale/fr/LC_MESSAGES/django.po -> build/lib.linux-x86_64-2.6/mptt/locale/fr/LC_MESSAGES
+
+creating build/lib.linux-x86_64-2.6/mptt/locale/de
+
+creating build/lib.linux-x86_64-2.6/mptt/locale/de/LC_MESSAGES
+
+copying mptt/locale/de/LC_MESSAGES/django.mo -> build/lib.linux-x86_64-2.6/mptt/locale/de/LC_MESSAGES
+
+copying mptt/locale/de/LC_MESSAGES/django.po -> build/lib.linux-x86_64-2.6/mptt/locale/de/LC_MESSAGES
+
+creating build/lib.linux-x86_64-2.6/mptt/locale/pl
+
+creating build/lib.linux-x86_64-2.6/mptt/locale/pl/LC_MESSAGES
+
+copying mptt/locale/pl/LC_MESSAGES/django.mo -> build/lib.linux-x86_64-2.6/mptt/locale/pl/LC_MESSAGES
+
+copying mptt/locale/pl/LC_MESSAGES/django.po -> build/lib.linux-x86_64-2.6/mptt/locale/pl/LC_MESSAGES
+
+creating build/lib.linux-x86_64-2.6/mptt/locale/dk
+
+creating build/lib.linux-x86_64-2.6/mptt/locale/dk/LC_MESSAGES
+
+copying mptt/locale/dk/LC_MESSAGES/django.mo -> build/lib.linux-x86_64-2.6/mptt/locale/dk/LC_MESSAGES
+
+copying mptt/locale/dk/LC_MESSAGES/django.po -> build/lib.linux-x86_64-2.6/mptt/locale/dk/LC_MESSAGES
+
+running install_lib
+
+creating /usr/local/lib/python2.6/site-packages/mptt
+
+error: could not create '/usr/local/lib/python2.6/site-packages/mptt': Permission denied
+
+----------------------------------------
+Command /usr/languages/python/2.6/bin/python -c "import setuptools; __file__='/nfs/http7/backup-your-brain/www/bYb/build/django-mptt/setup.py'; execfile('/nfs/http7/backup-your-brain/www/bYb/build/django-mptt/setup.py')" install --single-version-externally-managed --record /tmp/pip-3wF62G-record/install-record.txt --install-headers /nfs/http7/backup-your-brain/www/bYb/lib/include failed with error code 1
+Exception information:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 274, in main
+    self.run(options, args)
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 433, in run
+    requirement_set.install(install_options)
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 2082, in install
+    requirement.install(install_options)
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 1573, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 3643, in call_subprocess
+    % (command_desc, proc.returncode))
+InstallationError: Command /usr/languages/python/2.6/bin/python -c "import setuptools; __file__='/nfs/http7/backup-your-brain/www/bYb/build/django-mptt/setup.py'; execfile('/nfs/http7/backup-your-brain/www/bYb/build/django-mptt/setup.py')" install --single-version-externally-managed --record /tmp/pip-3wF62G-record/install-record.txt --install-headers /nfs/http7/backup-your-brain/www/bYb/lib/include failed with error code 1
+------------------------------------------------------------
+/usr/local/bin/pip run on Tue Mar 27 11:34:49 2012
+Downloading/unpacking zinnia
+  Getting page http://pypi.python.org/simple/zinnia
+  Could not fetch URL http://pypi.python.org/simple/zinnia: HTTP Error 404: Not Found (zinnia does not have any releases)
+  Will skip URL http://pypi.python.org/simple/zinnia when looking for download links for zinnia
+  Getting page http://pypi.python.org/simple/
+  URLs to search for versions for zinnia:
+  * http://pypi.python.org/simple/zinnia/
+  Getting page http://pypi.python.org/simple/zinnia/
+  Could not fetch URL http://pypi.python.org/simple/zinnia/: HTTP Error 404: Not Found (zinnia does not have any releases)
+  Will skip URL http://pypi.python.org/simple/zinnia/ when looking for download links for zinnia
+  Could not find any downloads that satisfy the requirement zinnia
+No distributions at all found for zinnia
+Exception information:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 274, in main
+    self.run(options, args)
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 431, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle)
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 1813, in install_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 1086, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+DistributionNotFound: No distributions at all found for zinnia
+------------------------------------------------------------
+/usr/local/bin/pip run on Tue Mar 27 15:50:21 2012
+Downloading/unpacking django-bitly
+  Getting page http://pypi.python.org/simple/django-bitly
+  URLs to search for versions for django-bitly:
+  * http://pypi.python.org/simple/django-bitly/
+  Getting page http://bitbucket.org/discovery/django-bitly/
+  Getting page http://bitbucket.org/discovery/django-bitly/get/0.4.bz2
+  Getting page http://bitbucket.org/discovery/django-bitly/get/0.5.bz2
+  Analyzing links from page http://pypi.python.org/simple/django-bitly/
+    Found link http://pypi.python.org/packages/source/d/django-bitly/django-bitly-0.5.tar.gz#md5=9c4a9fe55ec2bea1a1ee246702301969 (from http://pypi.python.org/simple/django-bitly/), version: 0.5
+    Found link http://pypi.python.org/packages/source/d/django-bitly/django-bitly-0.5.1.tar.gz#md5=81fade7baade798cedb6bddaa5113af5 (from http://pypi.python.org/simple/django-bitly/), version: 0.5.1
+    Found link http://pypi.python.org/packages/source/d/django-bitly/django-bitly-0.6.tar.gz#md5=619449c901527c1a0026e3683e8a32b4 (from http://pypi.python.org/simple/django-bitly/), version: 0.6
+    Skipping link http://bitbucket.org/discovery/django-bitly/ (from http://pypi.python.org/simple/django-bitly/); not a file
+    Skipping link http://bitbucket.org/discovery/django-bitly/get/0.4.bz2 (from http://pypi.python.org/simple/django-bitly/); unknown archive format: .bz2
+    Skipping link http://bitbucket.org/discovery/django-bitly/get/0.5.bz2 (from http://pypi.python.org/simple/django-bitly/); unknown archive format: .bz2
+  Analyzing links from page https://bitbucket.org/discovery/django-bitly/
+    Skipping link https://bitbucket.org/static/hgicon.png (from https://bitbucket.org/discovery/django-bitly/); unknown archive format: .png
+    Skipping link https://bitbucket.org/static/style-paper.css (from https://bitbucket.org/discovery/django-bitly/); unknown archive format: .css
+    Skipping link https://bitbucket.org/atom-log (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rss-log (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link http://mercurial.selenic.com/ (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/graph/e505f54a473f (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/tags (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/bookmarks (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/branches (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/e505f54a473f (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/file/e505f54a473f (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Could not parse version from link: https://bitbucket.org/archive/tip.tar.bz2 (from https://bitbucket.org/discovery/django-bitly/)
+    Skipping link https://bitbucket.org/archive/tip.tar.bz2 (from https://bitbucket.org/discovery/django-bitly/); wrong project name (not django-bitly)
+    Could not parse version from link: https://bitbucket.org/archive/tip.zip (from https://bitbucket.org/discovery/django-bitly/)
+    Skipping link https://bitbucket.org/archive/tip.zip (from https://bitbucket.org/discovery/django-bitly/); wrong project name (not django-bitly)
+    Could not parse version from link: https://bitbucket.org/archive/tip.tar.gz (from https://bitbucket.org/discovery/django-bitly/)
+    Skipping link https://bitbucket.org/archive/tip.tar.gz (from https://bitbucket.org/discovery/django-bitly/); wrong project name (not django-bitly)
+    Skipping link https://bitbucket.org/help (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/ (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/shortlog/52?revcount=30 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/shortlog/52?revcount=120 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/shortlog/c6673016e429 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/shortlog/tip (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/f5f29967ebaa (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8a83b567fb6d (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/2f5c60929938 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/438ba70b5afa (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/becaa3fb341d (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/7aeb9c436355 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/ad7c27ed2c75 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/dde6b4001b8a (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/1e0ca5f70dd2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/94a8bdee6fd6 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/7f892d63158f (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/b49083d24699 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/fed0fb942be5 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/6c6b6fe662cb (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/26f62c5081f3 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/d1206471d9c5 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/5c7a5b0c4b80 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/93ec187138cd (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/250f00a1b2a0 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/5629ec988cbf (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/11fff7ce487e (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8ce25991be4c (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/f891561f6af0 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/df4cd6a4ae47 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/01f3f48f75d2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/f740aaf97475 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/f6f02917626c (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/1c8752cdd76e (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8859b787b6c9 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/5db13f889e3c (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/d867530775e2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/75ccb3e02c29 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8408efb37f2c (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/251317fca9d1 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/ab6d2b61b289 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/013e2c0573c3 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/13a8170dabe1 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/ec50df9dd9b4 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/579dafeb1b7b (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/5f38ba62d031 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/c4b08b469ea2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/d9e89796c54e (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/9780eaee753d (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/a0799b6c647e (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/30b0ef2d3787 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/6d41c07631c2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/d4b1f1badb91 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/0e88132dadd5 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/4be86439b6f4 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/00de2d6a30fa (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8035921d9a0d (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/c6673016e429 (from https://bitbucket.org/discovery/django-bitly/); not a file
+  Analyzing links from page https://bitbucket.org/discovery/django-bitly/
+    Skipping link https://bitbucket.org/static/hgicon.png (from https://bitbucket.org/discovery/django-bitly/); unknown archive format: .png
+    Skipping link https://bitbucket.org/static/style-paper.css (from https://bitbucket.org/discovery/django-bitly/); unknown archive format: .css
+    Skipping link https://bitbucket.org/atom-log (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rss-log (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link http://mercurial.selenic.com/ (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/graph/e505f54a473f (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/tags (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/bookmarks (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/branches (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/e505f54a473f (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/file/e505f54a473f (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Could not parse version from link: https://bitbucket.org/archive/tip.tar.bz2 (from https://bitbucket.org/discovery/django-bitly/)
+    Skipping link https://bitbucket.org/archive/tip.tar.bz2 (from https://bitbucket.org/discovery/django-bitly/); wrong project name (not django-bitly)
+    Could not parse version from link: https://bitbucket.org/archive/tip.zip (from https://bitbucket.org/discovery/django-bitly/)
+    Skipping link https://bitbucket.org/archive/tip.zip (from https://bitbucket.org/discovery/django-bitly/); wrong project name (not django-bitly)
+    Could not parse version from link: https://bitbucket.org/archive/tip.tar.gz (from https://bitbucket.org/discovery/django-bitly/)
+    Skipping link https://bitbucket.org/archive/tip.tar.gz (from https://bitbucket.org/discovery/django-bitly/); wrong project name (not django-bitly)
+    Skipping link https://bitbucket.org/help (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/ (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/shortlog/52?revcount=30 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/shortlog/52?revcount=120 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/shortlog/c6673016e429 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/shortlog/tip (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/f5f29967ebaa (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8a83b567fb6d (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/2f5c60929938 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/438ba70b5afa (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/becaa3fb341d (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/7aeb9c436355 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/ad7c27ed2c75 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/dde6b4001b8a (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/1e0ca5f70dd2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/94a8bdee6fd6 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/7f892d63158f (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/b49083d24699 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/fed0fb942be5 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/6c6b6fe662cb (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/26f62c5081f3 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/d1206471d9c5 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/5c7a5b0c4b80 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/93ec187138cd (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/250f00a1b2a0 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/5629ec988cbf (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/11fff7ce487e (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8ce25991be4c (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/f891561f6af0 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/df4cd6a4ae47 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/01f3f48f75d2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/f740aaf97475 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/f6f02917626c (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/1c8752cdd76e (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8859b787b6c9 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/5db13f889e3c (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/d867530775e2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/75ccb3e02c29 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8408efb37f2c (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/251317fca9d1 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/ab6d2b61b289 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/013e2c0573c3 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/13a8170dabe1 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/ec50df9dd9b4 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/579dafeb1b7b (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/5f38ba62d031 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/c4b08b469ea2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/d9e89796c54e (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/9780eaee753d (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/a0799b6c647e (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/30b0ef2d3787 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/6d41c07631c2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/d4b1f1badb91 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/0e88132dadd5 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/4be86439b6f4 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/00de2d6a30fa (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8035921d9a0d (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/c6673016e429 (from https://bitbucket.org/discovery/django-bitly/); not a file
+  Analyzing links from page https://bitbucket.org/discovery/django-bitly/get/0.4.tar.bz2
+  Analyzing links from page https://bitbucket.org/discovery/django-bitly/
+    Skipping link https://bitbucket.org/static/hgicon.png (from https://bitbucket.org/discovery/django-bitly/); unknown archive format: .png
+    Skipping link https://bitbucket.org/static/style-paper.css (from https://bitbucket.org/discovery/django-bitly/); unknown archive format: .css
+    Skipping link https://bitbucket.org/atom-log (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rss-log (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link http://mercurial.selenic.com/ (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/graph/e505f54a473f (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/tags (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/bookmarks (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/branches (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/e505f54a473f (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/file/e505f54a473f (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Could not parse version from link: https://bitbucket.org/archive/tip.tar.bz2 (from https://bitbucket.org/discovery/django-bitly/)
+    Skipping link https://bitbucket.org/archive/tip.tar.bz2 (from https://bitbucket.org/discovery/django-bitly/); wrong project name (not django-bitly)
+    Could not parse version from link: https://bitbucket.org/archive/tip.zip (from https://bitbucket.org/discovery/django-bitly/)
+    Skipping link https://bitbucket.org/archive/tip.zip (from https://bitbucket.org/discovery/django-bitly/); wrong project name (not django-bitly)
+    Could not parse version from link: https://bitbucket.org/archive/tip.tar.gz (from https://bitbucket.org/discovery/django-bitly/)
+    Skipping link https://bitbucket.org/archive/tip.tar.gz (from https://bitbucket.org/discovery/django-bitly/); wrong project name (not django-bitly)
+    Skipping link https://bitbucket.org/help (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/ (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/shortlog/52?revcount=30 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/shortlog/52?revcount=120 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/shortlog/c6673016e429 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/shortlog/tip (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/f5f29967ebaa (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8a83b567fb6d (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/2f5c60929938 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/438ba70b5afa (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/becaa3fb341d (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/7aeb9c436355 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/ad7c27ed2c75 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/dde6b4001b8a (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/1e0ca5f70dd2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/94a8bdee6fd6 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/7f892d63158f (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/b49083d24699 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/fed0fb942be5 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/6c6b6fe662cb (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/26f62c5081f3 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/d1206471d9c5 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/5c7a5b0c4b80 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/93ec187138cd (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/250f00a1b2a0 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/5629ec988cbf (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/11fff7ce487e (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8ce25991be4c (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/f891561f6af0 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/df4cd6a4ae47 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/01f3f48f75d2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/f740aaf97475 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/f6f02917626c (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/1c8752cdd76e (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8859b787b6c9 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/5db13f889e3c (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/d867530775e2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/75ccb3e02c29 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8408efb37f2c (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/251317fca9d1 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/ab6d2b61b289 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/013e2c0573c3 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/13a8170dabe1 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/ec50df9dd9b4 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/579dafeb1b7b (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/5f38ba62d031 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/c4b08b469ea2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/d9e89796c54e (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/9780eaee753d (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/a0799b6c647e (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/30b0ef2d3787 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/6d41c07631c2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/d4b1f1badb91 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/0e88132dadd5 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/4be86439b6f4 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/00de2d6a30fa (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8035921d9a0d (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/c6673016e429 (from https://bitbucket.org/discovery/django-bitly/); not a file
+  Analyzing links from page https://bitbucket.org/discovery/django-bitly/get/0.5.tar.bz2
+  Analyzing links from page https://bitbucket.org/discovery/django-bitly/
+    Skipping link https://bitbucket.org/static/hgicon.png (from https://bitbucket.org/discovery/django-bitly/); unknown archive format: .png
+    Skipping link https://bitbucket.org/static/style-paper.css (from https://bitbucket.org/discovery/django-bitly/); unknown archive format: .css
+    Skipping link https://bitbucket.org/atom-log (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rss-log (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link http://mercurial.selenic.com/ (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/graph/e505f54a473f (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/tags (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/bookmarks (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/branches (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/e505f54a473f (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/file/e505f54a473f (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Could not parse version from link: https://bitbucket.org/archive/tip.tar.bz2 (from https://bitbucket.org/discovery/django-bitly/)
+    Skipping link https://bitbucket.org/archive/tip.tar.bz2 (from https://bitbucket.org/discovery/django-bitly/); wrong project name (not django-bitly)
+    Could not parse version from link: https://bitbucket.org/archive/tip.zip (from https://bitbucket.org/discovery/django-bitly/)
+    Skipping link https://bitbucket.org/archive/tip.zip (from https://bitbucket.org/discovery/django-bitly/); wrong project name (not django-bitly)
+    Could not parse version from link: https://bitbucket.org/archive/tip.tar.gz (from https://bitbucket.org/discovery/django-bitly/)
+    Skipping link https://bitbucket.org/archive/tip.tar.gz (from https://bitbucket.org/discovery/django-bitly/); wrong project name (not django-bitly)
+    Skipping link https://bitbucket.org/help (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/ (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/shortlog/52?revcount=30 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/shortlog/52?revcount=120 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/shortlog/c6673016e429 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/shortlog/tip (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/f5f29967ebaa (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8a83b567fb6d (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/2f5c60929938 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/438ba70b5afa (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/becaa3fb341d (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/7aeb9c436355 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/ad7c27ed2c75 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/dde6b4001b8a (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/1e0ca5f70dd2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/94a8bdee6fd6 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/7f892d63158f (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/b49083d24699 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/fed0fb942be5 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/6c6b6fe662cb (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/26f62c5081f3 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/d1206471d9c5 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/5c7a5b0c4b80 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/93ec187138cd (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/250f00a1b2a0 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/5629ec988cbf (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/11fff7ce487e (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8ce25991be4c (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/f891561f6af0 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/df4cd6a4ae47 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/01f3f48f75d2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/f740aaf97475 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/f6f02917626c (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/1c8752cdd76e (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8859b787b6c9 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/5db13f889e3c (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/d867530775e2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/75ccb3e02c29 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8408efb37f2c (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/251317fca9d1 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/ab6d2b61b289 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/013e2c0573c3 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/13a8170dabe1 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/ec50df9dd9b4 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/579dafeb1b7b (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/5f38ba62d031 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/c4b08b469ea2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/d9e89796c54e (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/9780eaee753d (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/a0799b6c647e (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/30b0ef2d3787 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/6d41c07631c2 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/d4b1f1badb91 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/0e88132dadd5 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/4be86439b6f4 (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/00de2d6a30fa (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/8035921d9a0d (from https://bitbucket.org/discovery/django-bitly/); not a file
+    Skipping link https://bitbucket.org/rev/c6673016e429 (from https://bitbucket.org/discovery/django-bitly/); not a file
+  Using version 0.6 (newest of versions: 0.6, 0.5.1, 0.5)
+  Downloading django-bitly-0.6.tar.gz
+  Downloading from URL http://pypi.python.org/packages/source/d/django-bitly/django-bitly-0.6.tar.gz#md5=619449c901527c1a0026e3683e8a32b4 (from http://pypi.python.org/simple/django-bitly/)
+  Running setup.py egg_info for package django-bitly
+    running egg_info
+    creating pip-egg-info/django_bitly.egg-info
+    writing pip-egg-info/django_bitly.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/django_bitly.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/django_bitly.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/django_bitly.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    reading manifest file 'pip-egg-info/django_bitly.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/django_bitly.egg-info/SOURCES.txt'
+  Source in ./build/django-bitly has version 0.6, which satisfies requirement django-bitly
+Installing collected packages: django-bitly
+  Running setup.py install for django-bitly
+    Running command /usr/languages/python/2.6/bin/python -c "import setuptools; __file__='/nfs/http7/backup-your-brain/www/bYb/build/django-bitly/setup.py'; execfile('/nfs/http7/backup-your-brain/www/bYb/build/django-bitly/setup.py')" install --single-version-externally-managed --record /tmp/pip-Ul3bRM-record/install-record.txt --install-headers /nfs/http7/backup-your-brain/www/bYb/lib/include
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-x86_64-2.6
+    creating build/lib.linux-x86_64-2.6/django_bitly
+    copying django_bitly/views.py -> build/lib.linux-x86_64-2.6/django_bitly
+    copying django_bitly/models.py -> build/lib.linux-x86_64-2.6/django_bitly
+    copying django_bitly/exceptions.py -> build/lib.linux-x86_64-2.6/django_bitly
+    copying django_bitly/__init__.py -> build/lib.linux-x86_64-2.6/django_bitly
+    creating build/lib.linux-x86_64-2.6/django_bitly/templatetags
+    copying django_bitly/templatetags/bitly.py -> build/lib.linux-x86_64-2.6/django_bitly/templatetags
+    copying django_bitly/templatetags/__init__.py -> build/lib.linux-x86_64-2.6/django_bitly/templatetags
+    running install_lib
+    creating /usr/local/lib/python2.6/site-packages/django_bitly
+    error: could not create '/usr/local/lib/python2.6/site-packages/django_bitly': Permission denied
+    Complete output from command /usr/languages/python/2.6/bin/python -c "import setuptools; __file__='/nfs/http7/backup-your-brain/www/bYb/build/django-bitly/setup.py'; execfile('/nfs/http7/backup-your-brain/www/bYb/build/django-bitly/setup.py')" install --single-version-externally-managed --record /tmp/pip-Ul3bRM-record/install-record.txt --install-headers /nfs/http7/backup-your-brain/www/bYb/lib/include:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-x86_64-2.6
+
+creating build/lib.linux-x86_64-2.6/django_bitly
+
+copying django_bitly/views.py -> build/lib.linux-x86_64-2.6/django_bitly
+
+copying django_bitly/models.py -> build/lib.linux-x86_64-2.6/django_bitly
+
+copying django_bitly/exceptions.py -> build/lib.linux-x86_64-2.6/django_bitly
+
+copying django_bitly/__init__.py -> build/lib.linux-x86_64-2.6/django_bitly
+
+creating build/lib.linux-x86_64-2.6/django_bitly/templatetags
+
+copying django_bitly/templatetags/bitly.py -> build/lib.linux-x86_64-2.6/django_bitly/templatetags
+
+copying django_bitly/templatetags/__init__.py -> build/lib.linux-x86_64-2.6/django_bitly/templatetags
+
+running install_lib
+
+creating /usr/local/lib/python2.6/site-packages/django_bitly
+
+error: could not create '/usr/local/lib/python2.6/site-packages/django_bitly': Permission denied
+
+----------------------------------------
+Command /usr/languages/python/2.6/bin/python -c "import setuptools; __file__='/nfs/http7/backup-your-brain/www/bYb/build/django-bitly/setup.py'; execfile('/nfs/http7/backup-your-brain/www/bYb/build/django-bitly/setup.py')" install --single-version-externally-managed --record /tmp/pip-Ul3bRM-record/install-record.txt --install-headers /nfs/http7/backup-your-brain/www/bYb/lib/include failed with error code 1
+Exception information:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 274, in main
+    self.run(options, args)
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 433, in run
+    requirement_set.install(install_options)
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 2082, in install
+    requirement.install(install_options)
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 1573, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "/usr/local/lib/python2.6/site-packages/pip-0.4-py2.6.egg/pip.py", line 3643, in call_subprocess
+    % (command_desc, proc.returncode))
+InstallationError: Command /usr/languages/python/2.6/bin/python -c "import setuptools; __file__='/nfs/http7/backup-your-brain/www/bYb/build/django-bitly/setup.py'; execfile('/nfs/http7/backup-your-brain/www/bYb/build/django-bitly/setup.py')" install --single-version-externally-managed --record /tmp/pip-Ul3bRM-record/install-record.txt --install-headers /nfs/http7/backup-your-brain/www/bYb/lib/include failed with error code 1

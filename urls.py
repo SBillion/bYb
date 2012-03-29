@@ -1,6 +1,6 @@
 from django.conf.urls.defaults import patterns, include, url
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
-
+from django.http import HttpResponse
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
 import settings
@@ -23,6 +23,24 @@ urlpatterns = patterns('',
      (r'^localeurl/', include('localeurl.urls')),
      url(r'^', include('zinnia.urls')),
     (r'^comments/', include('django.contrib.comments.urls')),
-    
+    url(r'^robots.txt$', lambda r: HttpResponse("User-agent:*\nDisallow:/media/\nDisallow:/static/", mimetype="text/plain")),
+
 )
-urlpatterns += staticfiles_urlpatterns()
+from zinnia.sitemaps import TagSitemap
+from zinnia.sitemaps import EntrySitemap
+from zinnia.sitemaps import CategorySitemap
+from zinnia.sitemaps import AuthorSitemap
+
+sitemaps = {'tags': TagSitemap,
+            'blog': EntrySitemap,
+            'authors': AuthorSitemap,
+            'categories': CategorySitemap,}
+
+urlpatterns += patterns(
+    'django.contrib.sitemaps.views',
+    url(r'^sitemap.xml$', 'index',
+        {'sitemaps': sitemaps}),
+    url(r'^sitemap-(?P<section>.+)\.xml$', 'sitemap',
+        {'sitemaps': sitemaps}),
+)
+#urlpatterns += staticfiles_urlpatterns()
